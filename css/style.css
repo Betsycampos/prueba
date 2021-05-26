@@ -35,7 +35,7 @@
 
 .bg-nav {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.336);
+  background-color: transparent;
 }
 
 .w-video {
