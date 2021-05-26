@@ -1,98 +1,96 @@
 .c-yellow {
-    color: #AF9225;
-  }
-  
-  .line1 {
-    line-height: 1.2;
-  }
-  
+  color: #AF9225;
+}
+
+.line1 {
+  line-height: 1.2;
+}
+
+.header-imi {
+  background-image: url('https://res.cloudinary.com/upcbinary/image/upload/v1622037872/imi/mobile_gl16xf.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 657px;
+}
+
+.header-imi.gracias {
+  height: 100vh;
+}
+
+.style-title {
+  background-color: rgba(0, 0, 0, 0.651);
+  margin-top: 130px;
+  padding: 30px 10px 10px 10px;
+}
+
+.relativo {
+  position: relative;
+}
+
+.position-arrow-down {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+}
+
+.bg-nav {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+
+.w-video {
+  width: 100%; 
+  height: 180px;
+}
+
+.btn-informe {
+  color: #000 !important;
+  background-color: #dbba61;
+  border-color: #dbba61;
+  text-decoration: none !important; 
+  font-family: 'sgothic-bdcap'; 
+}
+
+.title-video {
+  color: #dbba61;
+  font-family: 'sgothic-bdcap'; 
+}
+
+.sub-title {
+  color: white;
+}
+
+.img-plus {
+  width: 194%;
+}
+
+@media(min-width: 768px) {
+
   .header-imi {
-    background-image: url('https://res.cloudinary.com/upcbinary/image/upload/v1622037872/imi/mobile_gl16xf.png');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('https://res.cloudinary.com/upcbinary/image/upload/v1622037107/imi/imi-cover_zldo4s.png');
     min-height: 657px;
-    background-position-x: 24%;
   }
-  
-  .header-imi.gracias {
-    height: 100vh;
-  }
-  
+
   .style-title {
-    background-color: rgba(0, 0, 0, 0.651);
-    margin-top: 130px;
-    padding: 30px 10px 10px 10px;
+    margin-top: 213px;
+    padding: 30px 16px 10px 10px;
   }
-  
-  .relativo {
-    position: relative;
-  }
-  
-  .position-arrow-down {
-    position: absolute;
-    left: 50%;
-    bottom: 5%;
-  }
-  
-  .bg-nav {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.336);
-  }
-  
+
   .w-video {
-    width: 100%; 
-    height: 180px;
+    width: 100%;
+    height: 380px;
   }
-  
-  .btn-informe {
-    color: #000 !important;
-    background-color: #dbba61;
-    border-color: #dbba61;
-    text-decoration: none !important; 
-    font-family: 'sgothic-bdcap'; 
-  }
-  
-  .title-video {
-    color: #dbba61;
-    font-family: 'sgothic-bdcap'; 
-  }
-  
-  .sub-title {
-    color: white;
-  }
-  
+
   .img-plus {
-    width: 194%;
+    width: auto;
   }
-  
-  @media(min-width: 768px) {
-  
-    .header-imi {
-      background-image: url('https://res.cloudinary.com/upcbinary/image/upload/v1622037107/imi/imi-cover_zldo4s.png');
-      min-height: 657px;
-      background-position: bottom;
-    }
-  
-    .style-title {
-      margin-top: 213px;
-      padding: 30px 16px 10px 10px;
-    }
-  
-    .w-video {
-      width: 100%;
-      height: 380px;
-    }
-  
-    .img-plus {
-      width: auto;
-    }
-  
+
+}
+
+@media(min-width: 992px) {
+  .w-video {
+    width: 80%;
+    height: 312px;
   }
-  
-  @media(min-width: 992px) {
-    .w-video {
-      width: 80%;
-      height: 312px;
-    }
-  
-  }
+
+}
